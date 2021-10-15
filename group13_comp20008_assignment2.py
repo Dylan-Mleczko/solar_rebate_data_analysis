@@ -319,7 +319,7 @@ def equitable_uptake_solar():
     heatmap.sort_index(ascending=True)
     sns.heatmap(heatmap, cmap='viridis')
     plt.title("Annual Income by Installation Decile")
-    plt.savefig(plots_path + 'Income change over time per decile of annual installation on heatmap.png')
+    plt.savefig(plots_path + 'Annual Income by Installation Decile on heatmap.png')
     
     # Flush memory space for plt
     plt.clf()
