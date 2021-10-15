@@ -626,7 +626,7 @@ def income_bands_console():
     
     # Catplot
     def catplot(y_axis, title, percentage, filepath):
-        sns.catplot(data = data, x = "year", y = y_axis, hue = "income_group", legend = False)
+        sns.catplot(data = data, x = "year", y = y_axis, hue = "income_group", palette = sns.color_palette(COLORS.values()), legend = False)
         plt.title(title, fontweight = "bold")
         plt.legend()
         plt.xlabel("Year", fontweight = "bold")
