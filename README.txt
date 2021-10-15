@@ -1,7 +1,7 @@
 Assignment2 - Group13:
 
 Members:
-1. Michael Pollard
+1. Michael Pollard - 36667
 2. Karthikeyan Rajagoal - 1246255
 3. Dylan Cookson-Mleczko - 1173182
 4. Sophie Son - 656483
